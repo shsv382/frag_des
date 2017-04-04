@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	height: 50px;
+	background-color: #77aaff;
+	background: linear-gradient(#77aaff, #3377aa);
+	box-shadow: 0 3px 3px 3px #a7a7a7;
+	margin-bottom: 30px;
+	position: static;
+}
+
+#day {
+	width: 3em;
+	display: inline-block;
+}
+
+#start {
+	width: 30%;
+	min-width: 300px;
+	margin: 10px auto;
+}
+
+h1 {
+	font-weight: bold;
+	border-bottom: 3px solid #77aaff;
+	padding: 10px;
+	text-align: center;
+	width: 30%;
+	min-width: 300px;
+	margin: 10px auto;
+}
+
+.button {
+	display: block;
+	margin: 10px auto;
+}
+
+tr, td, th {
+	height: 3.7em;
+	text-align: center;
+}
